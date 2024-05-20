@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
@@ -29,6 +30,7 @@
     "eslint-plugin-vue": "^9.17.0",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.0.3",
+    "sass": "^1.77.2",
     "typescript": "~5.4.0",
     "unplugin-auto-import": "^0.17.6",
     "unplugin-vue-components": "^0.27.0",

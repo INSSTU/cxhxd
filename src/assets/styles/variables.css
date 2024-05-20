@@ -1,0 +1,5 @@
+/* 此处用html包裹css代码（css通用性更强），可以使这些代码既可以在css中使用，又可以在scss或js中使用（如果在scss中定义这些变量，那么编译后就不能在css或js中使用了） */
+
+html {
+  --primary-color: #242424;
+}

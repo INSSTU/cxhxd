@@ -1,0 +1,13 @@
+@import 'normalize.css';
+@import './variables.css';
+
+// 移动端项目
+// 设计尺寸： 375 414 750 1125 ...
+html {
+  // 视口宽度为375rem
+  font-size: calc(100vw / 375); //这里使字号不合适，后面要整体设置字体大小。
+}
+
+body {
+  font: 12px 'Microsoft YaHei';
+}
