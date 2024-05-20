@@ -5,6 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // 导入自动导包插件
 import AutoImport from 'unplugin-auto-import/vite'
+// 导入自动导vue组件的插件
+import Components from 'unplugin-vue-components/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -34,6 +36,9 @@ export default defineConfig({
         'pinia',
       ],
       */
+    }),
+    Components({
+      dts: './src/types/components.d.ts',
     }),
   ],
   resolve: {
